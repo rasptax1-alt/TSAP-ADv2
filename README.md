@@ -1,8 +1,8 @@
 # TSAP-AD: Time-Series Additive exPlanations for Intrusion Detection
 
-This repository contains the official open-source implementation for **TSAP-AD**, a leakage-controlled, explainable intrusion detection framework designed for resource-constrained Industrial Internet of Things (IIoT) edge gateways. 
+This repository contains the official open-source implementation for (TSAP-AD), a leakage-controlled, explainable intrusion detection framework designed for resource-constrained Industrial Internet of Things (IIoT) edge gateways. 
 
-TSAP-AD integrates a **leakage-controlled pseudo-chronological evaluation protocol**, a **Numba-JIT dynamic time warping (DTW) abstraction layer**, and a linear-time **Signed Net-Deviation Attribution (SNDA)** explainer.
+TSAP-AD integrates a (leakage-controlled pseudo-chronological evaluation protocol), a (Numba-JIT dynamic time warping (DTW) abstraction layer), and a linear-time (Signed Net-Deviation Attribution (SNDA)) explainer.
 
 ---
 
@@ -47,8 +47,8 @@ pip install -r requirements.txt
 
 
 Replicating Paper Experiments
-1. Detection Performance & Latency Benchmarks (Tables 3–6)To replicate the stratified pseudo-chronological cross-validation ($B_1, A_1, \dots, B_6, A_6$) and micro-benchmarking latency profiles:Open and run notebooks/01_pseudo_chronological_v6.ipynb.
-2. DTW Validity & Feature Redundancy Analysis (v7 Analysis)To execute the empirical validation proving that DTW distance against a benign reference reduces to the window $L_2$ norm ($R^2 = 0.9963$ relative to rolling statistics):Open and run notebooks/02_dtw_validity_v7.ipynb.
+1. Detection Performance & Latency Benchmarks (Tables 3–6)To replicate the stratified pseudo-chronological cross-validation (B_1, A_1, \dots, B_6, A_6) and micro-benchmarking latency profiles:Open and run notebooks/01_pseudo_chronological_v6.ipynb.
+2. DTW Validity & Feature Redundancy Analysis (v7 Analysis)To execute the empirical validation proving that DTW distance against a benign reference reduces to the window L_2 norm (R^2 = 0.9963 relative to rolling statistics):Open and run notebooks/02_dtw_validity_v7.ipynb.
 
 Summary of Main Results:
 
